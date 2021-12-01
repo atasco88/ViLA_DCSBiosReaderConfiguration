@@ -147,6 +147,60 @@
                         }
                     }
                 ],
+                "7": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "LEFT_GEAR_Y",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "LEFT_GEAR_Y",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "5": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "NOSE_GEAR_Y",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "NOSE_GEAR_Y",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "11": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "RIGHT_GEAR_Y",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "RIGHT_GEAR_Y",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],                
                 "14": [
                     {
                         "color": "000000",
