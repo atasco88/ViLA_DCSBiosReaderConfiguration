@@ -1,0 +1,243 @@
+{
+    "$schema": "https://raw.githubusercontent.com/charliefoxtwo/ViLA/main/Configuration/Schema/ActionConfiguration.json.schema",
+    "devices": {
+        "825B": {
+            "OnBoard": {
+                "2": [
+                    {
+                        "color": "ff0000",
+                        "trigger": {
+                            "id": "MC_LIGHT",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "MC_LIGHT",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "1": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AG_LIGHT",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "AG_LIGHT",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "3": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "VSTOL_LIGHT",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "VSTOL_LIGHT",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "4": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "NAV_LIGHT",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff8000",
+                        "trigger": {
+                            "id": "NAV_LIGHT",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "6": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "GEAR_LEVER_LIGHT",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "400000",
+                        "trigger": {
+                            "id": "GEAR_LEVER_LIGHT",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "8": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "LEFT_GEAR_G",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "LEFT_GEAR_G",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "9": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "NOSE_GEAR_G",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "NOSE_GEAR_G",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "10": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "RIGHT_GEAR_G",
+                            "value": 0,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "RIGHT_GEAR_G",
+                            "value": 1,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "14": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_1_Text",
+                            "value": "\\S",
+                            "comparator": "RegexNoMatch"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_1_Text",
+                            "value": "\\S",
+                            "comparator": "RegexMatch"
+                        }
+                    }
+                ],
+                "13": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_2_Text",
+                            "value": "\\S",
+                            "comparator": "RegexNoMatch"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_2_Text",
+                            "value": "\\S",
+                            "comparator": "RegexMatch"
+                        }
+                    }
+                ],
+                "12": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_3_Text",
+                            "value": "\\S",
+                            "comparator": "RegexNoMatch"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_3_Text",
+                            "value": "\\S",
+                            "comparator": "RegexMatch"
+                        }
+                    }
+                ],
+                "16": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_4_Text",
+                            "value": "\\S",
+                            "comparator": "RegexNoMatch"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_4_Text",
+                            "value": "\\S",
+                            "comparator": "RegexMatch"
+                        }
+                    }
+                ],
+                "15": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_5_Text",
+                            "value": "\\S",
+                            "comparator": "RegexNoMatch"
+                        }
+                    },
+                    {
+                        "color": "004000",
+                        "trigger": {
+                            "id": "AV8BNA_ODU_5_Text",
+                            "value": "\\S",
+                            "comparator": "RegexMatch"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
